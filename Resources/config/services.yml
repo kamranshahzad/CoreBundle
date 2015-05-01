@@ -1,0 +1,7 @@
+parameters:
+
+services:
+  acme.twig.acme_extension:
+        class: Kamran\CoreBundle\Twig\StringExtension
+        tags:
+            - { name: twig.extension }
